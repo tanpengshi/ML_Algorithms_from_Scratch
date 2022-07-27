@@ -244,8 +244,6 @@ class Model:
                     print(f"Early Stopping! Best Epoch {i+1-patience} - Val_Loss:{epoch_cache['best_loss']}")
                     break
 
-        return self.parameters
-
 
     def predict(self, X):
 
